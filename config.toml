@@ -67,6 +67,10 @@ enableEmoji = true
   [[params.social]]
     name = "github"
     url = "https://github.com/oinopion"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:tomek@hauru.eu"
   
   [[params.social]]
     name = "instagram"
