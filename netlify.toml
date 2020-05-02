@@ -17,10 +17,17 @@ HUGO_VERSION = "0.69.2"
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [[headers]]
-  for = "/css/*"
+  for = "/js/*.min.*.js"
     [headers.values]
+    Cache-Control = "public, max-age=604800, immutable"
     Access-Control-Allow-Origin = "*"
 [[headers]]
-  for = "/js/*"
+  for = "/css/*.min.*.css"
     [headers.values]
+    Cache-Control = "public, max-age=604800, immutable"
+    Access-Control-Allow-Origin = "*"
+[[headers]]
+  for = "/fonts/*.woff2"
+    [headers.values]
+    Cache-Control = "public, max-age=604800, immutable"
     Access-Control-Allow-Origin = "*"
