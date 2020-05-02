@@ -8,3 +8,15 @@ tags:
   - python
 ---
 
+
+Writing a good REST API client is something we do quite often, but writing one 
+that's actually good is not that easy.
+
+```python
+class GitHubClient:
+  def get_repos(self):
+    ...
+
+  def get_issues(self, repo_id):
+    ...
+```
