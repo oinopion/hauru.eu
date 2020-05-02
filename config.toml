@@ -39,11 +39,11 @@ enableEmoji = true
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  # description = ""
+  description = "Tomek Paczkowski - Software developer, geek and technology enthusiast. Find me on Twitter and GitHub."
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Geek and technology enthusiast"
+  homeSubtitle = "Software developer, geek and technology enthusiast"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
