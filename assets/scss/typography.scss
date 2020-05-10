@@ -21,8 +21,20 @@ body {
     font-size: 3rem;
 }
 
-#home-subtitle {
+.home-blurb {
     font-style: normal;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    text-align: center;
+    line-height: normal;
+    font-size: .7em;
+    opacity: .9;
+}
+
+.home-blurb a {
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 1.0;
 }
 
 .post-header h1 {
