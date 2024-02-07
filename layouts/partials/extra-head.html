@@ -1,6 +1,0 @@
-<link rel="preload" href="/fonts/josefin-sans-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-
-<link rel="canonical" href="{{ .Permalink }}">
-
-{{ $typography := resources.Get "scss/typography.scss" | resources.ExecuteAsTemplate "css/typography.css" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
-<link rel="stylesheet" href="{{ $typography.Permalink }}" {{ printf "integrity=%q" $typography.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous">

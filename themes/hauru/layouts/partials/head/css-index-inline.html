@@ -1,0 +1,6 @@
+{{/*  Watch out for VSCode auto-formatting markup in the `style` tag  */}}
+{{ with resources.Get "css/index.css" | minify }}
+<style>
+  {{ .Content | safeCSS }}
+</style>
+{{ end }}

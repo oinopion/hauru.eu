@@ -1,0 +1,84 @@
+/* This file is inlined in the index page */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'),
+    url('fonts/josefin-sans-v9-latin-regular.woff2') format('woff2'),
+    url('fonts/josefin-sans-v9-latin-regular.woff') format('woff');
+}
+
+/* Minimal CSS reset */
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Minimal index page styles */
+body {
+  background: #282828;
+  color: #e2e2e5;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #b1d631;
+  font-size: 2rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #555;
+  font-weight: normal;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  font-size: 80%;
+  margin: 1rem 0 0.5rem;
+}
+
+p {
+  margin: 1rem 0 0;
+}
+
+ul {
+  list-style: disc outside;
+  margin: 0.2rem 0 0 1rem;
+
+}
+
+a {
+  color: #80a0ff;
+  text-decoration: none;
+}
