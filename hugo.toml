@@ -29,6 +29,9 @@ footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4
 [params.author]
 name = "Tomek Paczkowski"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [menu]
 
 #   [[menu.main]]

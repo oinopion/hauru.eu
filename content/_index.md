@@ -4,5 +4,5 @@ for small startups with a positive mission.
 Here's where you can find me on the internet:
 * Email: [tomek@hauru.eu](mailto:tomek@hauru.eu)
 * GitHub: [@oinopion](https://github.com/oinopion)
-* Mastodon: [@oinopion@fosstodon.org](https://fosstodon.org/@oinopion)
+* Mastodon: <a rel="me" href="https://fosstodon.org/@oinopion">@oinopion@fosstodon.org</a>
 * LinkedIn: [Tomek Paczkowski](https://www.linkedin.com/in/tomekpaczkowski/)
