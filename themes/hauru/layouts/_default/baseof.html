@@ -7,32 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+  <link rel="canonical" href="{{ .Permalink }}" />
 
-  {{ if .IsHome }}
-  {{ partialCached "head/css-index-inline.html" . }}
-  {{ else }}
+  {{ block "head-css" . }}
   {{ partialCached "head/css.html" . }}
   {{ end }}
-
-  <link rel="canonical" href="{{ .Permalink }}" />
 </head>
 
 <body>
-  {{ block "header" . }}
   <header>
+    {{ block "header" . }}
     {{ partial "header.html" . }}
+    {{ end }}
   </header>
-  {{ end }}
 
   <main>
     {{ block "main" . }}{{ end }}
   </main>
 
-  {{ block "footer" . }}
   <footer>
+    {{ block "footer" . }}
     {{ partial "footer.html" . }}
+    {{ end }}
   </footer>
-  {{ end }}
 </body>
 
 </html>
