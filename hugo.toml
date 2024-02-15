@@ -13,6 +13,7 @@ enableEmoji = true            # https://gohugo.io/functions/emojify/
 paginate = 25
 
 disableKinds = [ "taxonomy", "sitemap", "RSS" ]
+enableRobotsTXT = true
 
 [taxonomies]
 tag = "tags"
