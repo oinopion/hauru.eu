@@ -1,0 +1,15 @@
+{{ define "head-css" }}
+{{ partialCached "head/css-minimal-inline.html" . }}
+{{ end }}
+
+
+{{ define "header" }}
+<h1>No such page</h1>
+{{ end }}
+
+{{ define "main" }}
+<p>
+  Sorry, there's no page under this address. Visit <a href="{{ "" | relURL }}">home page</a> for something that does
+  exist.
+</p>
+{{ end }}
