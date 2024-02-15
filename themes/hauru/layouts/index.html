@@ -1,3 +1,7 @@
+{{ define "head-css" }}
+{{ partialCached "head/css-minimal-inline.html" . }}
+{{ end }}
+
 {{ define "header" }}
 <h1>{{ site.Title }}</h1>
 {{ end }}
